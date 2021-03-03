@@ -1,0 +1,22 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin: 5px 10px 10px 0 ;
+    
+}
+.product-img{
+    padding: 10px 20px;
+}
+.product-desc>h3{
+    text-align: left;
+    color: rgb(37, 37, 199);
+    font-weight: 500;
+}
+.product-description> h3:hover{
+    text-decoration: underline;
+}
+.buy-button{
+    background-color: goldenrod;
+    border: goldenrod;
+    padding: 5px 20px;
+}
