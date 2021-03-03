@@ -21,8 +21,8 @@ const Cart = (props) => {
             <h5>Items in cart: {cart.length}</h5> <br />
 
             <p>Items: {Math.round(totalPrice).toFixed(2)}$</p>
-            <p>Shipping cost: {shippingCost}$</p>
-            <p>Total without Tax: {totalPrice+shippingCost}$</p>
+            <p>Shipping cost: {Math.round(shippingCost)}$</p>
+            <p>Total without Tax: {Math.round(totalPrice+shippingCost).toFixed(2)}$</p>
             <p>Estimated Tax: {Math.round(tax).toFixed(2)}$</p>
             <h3>Order Total: {Math.round(totalPrice+shippingCost+tax).toFixed(2)}$</h3>
         </div>
